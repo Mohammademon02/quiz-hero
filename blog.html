@@ -47,10 +47,13 @@
           </p>
         </div>
         <button
-          class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white"
-        >
-          Blog
+          class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white">
+          <a href="index.html">Home</a>
         </button>
+        <!-- <button
+          class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white">
+          Blog
+        </button> -->
       </nav>
     </header>
     <!-- Header/Navbar section end -->
@@ -60,34 +63,54 @@
         <div class="lg:w-[80%] md:w-[90%] w-[90%] mx-auto text-left">
         <!-- Quiz rules start -->
             <div class="text-sm my-10">
+
                 <p class="my-4">
                 <span class="bg-orange-200 px-2 rounded">Question 1:</span> What are the differences between map, forEach, filter and find?
                 </p>
-                <p class="my-4">
-                <span class="bg-green-200 px-2 rounded">Answer :</span> 
+                <p class="my-2">
+                <span class="bg-green-200 px-2 rounded">Answer :</span>  
+                <span class="font-semibold">map()</span> executes the same code on every element in an array and returns a new array with the updated elements.
+                <br>
+                <span class="font-semibold"> forEach()</span>, is used to execute the same code on every element in an array but does not change the array and it returns undefined.
+                <br>
+                <span class="font-semibold">filter()</span> checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.
+                <br>
+                <span class="font-semibold">find()</span> When you want to select a single element from an array.
                 </p>
 
                 <p class="my-4">
-                <span class="bg-orange-200 px-2 rounded">Question 2:</span> After
-                clicking Start button, you will see a page with 3s count down, wait
-                until the count is over!
+                <span class="bg-orange-200 px-2 rounded">Question 2:</span> What is the difference between local storage session storage and cookies in JavaScript?
+                </p>
+                <p class="my-2">
+                <span class="bg-green-200 px-2 rounded">Answer :</span>
+                <span class="font-semibold">Local storage</span> is useful for storing data that the user will need to access later, such as offline data.
+                <br>
+                <span class="font-semibold">Session storage</span> is a great way to improve the performance of your web applications.
+                <br>
+                <span class="font-semibold">Cookies</span> are a good choice for storing data that should not be persisted for a long time, such as session IDs.
+                </p>
+
+
+                <p class="my-4">
+                <span class="bg-orange-200 px-2 rounded">Question 3:</span> What is  event loop in JavaScript?
+                </p>
+                <p class="my-2">
+                <span class="bg-green-200 px-2 rounded">Answer :</span>
+                 <span class="font-semibold">Event loop :</span> JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.
                 </p>
 
                 <p class="my-4">
-                <span class="bg-orange-200 px-2 rounded">Question 3:</span> You will see
-                the questions with 4 options for each, and counter will start and
-                which will count your exam time.
+                <span class="bg-orange-200 px-2 rounded">Question 4:</span> quizTimer
+                </p>
+                <p class="my-2">
+                <span class="bg-green-200 px-2 rounded">Answer :</span> quizTimer
                 </p>
 
                 <p class="my-4">
-                <span class="bg-orange-200 px-2 rounded">Question 4:</span> You have to
-                select the correct answer, and you have 60 seconds to answer 6
-                questions.
+                <span class="bg-orange-200 px-2 rounded">Question 5:</span> chooseQuiz
                 </p>
-
-                <p class="my-4">
-                <span class="bg-orange-200 px-2 rounded">Question 5:</span> Click on the
-                submit quiz button, when you are done with all the answers.
+                <p class="my-2">
+                <span class="bg-green-200 px-2 rounded">Answer :</span> chooseQuiz
                 </p>
             </div>
         <!-- Quiz rules end -->
